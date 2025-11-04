@@ -110,6 +110,26 @@ main ul {
     font-family: 'Roboto', sans-serif;
 }
 
+#home-page { 
+  background-image: url("./assets/ucsd.png"); 
+  background-size: cover; 
+  background-position: center; /* Center the image */ 
+  background-repeat: no-repeat; /* Prevent tiling */ 
+  background-attachment: fixed; /* Optional: gives a parallax effect */ 
+  min-height: 100vh; /* Make it fill the viewport */ width: 100%; /* Ensure full width */ 
+  margin: 0; display: flex; /* Centers your content nicely */ 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  color: white; /* Ensure readability */ 
+  text-shadow: 1.5px 1.5px 4.5px rgba(0,0,0,0.7); 
+  text-align: center; 
+  p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+  }
+}
+
 section {
     max-width: 700px;
     margin: 2rem auto;
