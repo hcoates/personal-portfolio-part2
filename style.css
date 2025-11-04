@@ -271,3 +271,32 @@ info-card ul {
 
 #skills progress::-webkit-progress-bar { background-color: #eee; }
 #skills progress::-webkit-progress-value { background-color: var(--accent); }
+
+/* === Summary Section === */
+.summary-container {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.summary-image img {
+    width: 230px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.summary-text { 
+  flex: 1; 
+}
+
+#swe-image { 
+  width: 60%; 
+  height: auto; 
+  margin: 0 auto; 
+  border-radius: 10px;
+  max-width: 400px; 
+}
