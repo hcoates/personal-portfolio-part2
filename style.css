@@ -300,3 +300,40 @@ info-card ul {
   border-radius: 10px;
   max-width: 400px; 
 }
+
+/* === Contact Form === */
+.contact-container, .contact-form {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: var(--card-bg);
+    border: 2px solid var(--accent);
+    border-radius: var(--card-radius);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+.contact-form fieldset { border: none; padding: 0; }
+.contact-form legend { font-size: 1.2rem; font-weight: bold; margin-bottom: 1rem; color: var(--accent); }
+.contact-form label { display: block; text-align: left; margin-top: 1rem; font-weight: bold; }
+.contact-form input,
+.contact-form textarea {
+    width: 100%; padding: 0.6rem; margin-top: 0.3rem; border: 1px solid #ccc; border-radius: var(--card-radius);
+    font-family: 'Roboto', sans-serif; font-size: 0.95rem; box-sizing: border-box;
+}
+.contact-form textarea { resize: vertical; }
+.contact-form button {
+    margin-top: 1.5rem; padding: 0.6rem 1.2rem;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.85rem;
+    color: var(--bg);
+    background-color: var(--accent);
+    border: none;
+    border-radius: var(--card-radius);
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+.contact-form button:hover {
+    background-color: var(--accent-2);
+    transform: translateY(-2px) scale(1.02);
+}
