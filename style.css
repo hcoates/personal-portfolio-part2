@@ -243,6 +243,12 @@ info-card ul {
     font-size: 0.9rem;
 }
 
+info-card:has(img) {
+  border-color: var(--accent);
+  border-style: dotted;
+  border-width: 2px;
+}
+
 .skill {
     background-color: var(--accent);
     color: var(--bg);
